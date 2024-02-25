@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #2c2d2a;
+    background-color: #e7dfcf;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+header{
+    border-bottom: 1px solid #888888;
+    padding-bottom: 8px;
+    align-items: center;
+    
+}
+
+.navegacion {
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu .iconos{
+    padding: 20px 20px 0px 0px;
+}
+
+.imagen{
+    width: 200px;
+    height: 40px;
+}
+
+.iconos{
+    width: 20px;
+    height: 40px;
+    align-items: stretch;
+}
+
+.icon .iconos{
+    padding: 20px 0 0 20px;
+}
+
+.enlaces{
+    align-self: center;
+}
+.enlaces li{
+    display: inline;
+}
+.enlaces a{
+    text-decoration: none;
+    color: #2c2d2a;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.enlaces ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+section{
+    
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+h1{
+    font-family: "EB Garamond", serif;
+    font-size: 150px;
+    margin: 0;
+}
+.contenido{
+    flex-basis: 0;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.cabecera{
+    margin: 0;
+    font-size: 25px;
+}
+.precio{
+       
+    font-size: 30px;
+    margin: 0;
+}
+
+.texto1{
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.texto2{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.texto3 img{
+    width: 30px;
+    
+    
+    
+}
+.principal{
+    flex-basis: 0;
+    flex-grow: 6;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pagina{
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pagina p{
+    align-self: flex-end;
+}
+.pagina img{
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
